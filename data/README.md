@@ -1,12 +1,12 @@
 # Smart City Traffic Analytics
 
-A Python-based data analytics project for analyzing traffic patterns, visualizing accident locations, and demonstrating accident-risk monitoring on a real-world map.
+A Python-based data analytics project for analyzing traffic patterns, visualizing accident locations, and monitoring accident risks on interactive maps.
 
 ## Features
 - Traffic data generation and analysis
 - Accident data visualization
-- Interactive map with accident markers
-- Live accident simulation dashboard
+- Interactive accident maps
+- Simulated live accident reporting dashboard
 - Accident severity monitoring
 - CSV-based data storage
 
@@ -32,16 +32,12 @@ SmartCityTrafficAnalytics/
 │   ├── live_dashboard.py
 │   └── traffic_data.csv
 ├── generate_data.py
-├── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
 ## Installation
 
-1. Install Python.
-2. Open the project folder in VS Code.
-3. Open the terminal and run:
+Install Python, open the project folder in VS Code, and run:
 
 ```bash
 python -m venv .venv
@@ -56,12 +52,12 @@ Activate the environment in Windows PowerShell:
 Install dependencies:
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install pandas folium streamlit matplotlib streamlit-folium
 ```
 
 ## Run the Project
 
-Generate sample traffic and accident data:
+Generate sample data:
 
 ```bash
 python generate_data.py
@@ -79,22 +75,26 @@ Run the accident map:
 python data/accident_map.py
 ```
 
-Run the standard dashboard:
+Run the main dashboard:
 
 ```bash
 python -m streamlit run data/dashboard.py
 ```
 
-Run the live accident simulation dashboard:
+Run the live accident reporting dashboard:
 
 ```bash
 python -m streamlit run data/live_dashboard.py
 ```
 
+After starting a dashboard, open the local URL displayed in the terminal, usually `http://localhost:8501`.
+
 ## Note
 
-The live accident dashboard demonstrates accident reporting using simulated input. It does not independently detect real-world accidents unless connected to an actual sensor, camera, or validated detection system.
+Live accident reporting uses simulated input. Automatic real-world accident detection requires integration with actual sensors, cameras, or a validated detection model.
 
 ## Author
 
-Add your name and GitHub profile here.
+**Manikant Patil**
+
+GitHub: https://github.com/manikantpatilgit add README.md
