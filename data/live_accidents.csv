@@ -1,0 +1,14 @@
+event_id,timestamp,road,latitude,longitude,severity,source
+c156a430,2026-10-15T21:00:59+05:30,mejestic,14.62,74.835,High,Simulated test event
+9bc8f505,2026-10-15T21:03:56+05:30,"sirsi,uttarakannada",14.62,74.835,High,Simulated test event
+665b4b9a,2026-10-15T21:04:59+05:30,sagara,14.62,74.835,High,Simulated test event
+eb16be1d,2026-10-15T21:05:41+05:30,"sagara,shivamogga",14.62,74.835,High,Simulated test event
+9100c847,2026-10-15T21:06:01+05:30,"sagara,shivamogga",14.62,74.835,High,Simulated test event
+29869513,2026-10-15T21:07:31+05:30,"sagara,shivamogga",14.62,74.835,High,Simulated test event
+e18ce807,2026-10-15T21:07:32+05:30,"sagara,shivamogga",14.62,74.835,High,Simulated test event
+cbe93be8,2026-10-15T21:07:36+05:30,"sagara,shivamogga",14.62,74.835,Medium,Simulated test event
+b9487539,2026-10-15T21:07:37+05:30,"sagara,shivamogga",14.62,74.835,Medium,Simulated test event
+9a29bf41,2026-10-15T21:07:43+05:30,"sagara,shivamogga",14.62,74.835,Medium,Simulated test event
+a6f7a479,2026-10-15T21:07:46+05:30,"sagara,shivamogga",14.62,74.835,Medium,Simulated test event
+22ae500c,2026-10-15T21:23:00+05:30,"sagara,sivamogga",14.62,74.835,High,Simulated test event
+45b016d7,2026-10-16T20:43:17+05:30,Sirsi,14.62,74.835,High,Simulated test event
